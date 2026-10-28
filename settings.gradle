@@ -1,0 +1,16 @@
+// Archivo que identifica el proyecto y los repositorios de Gradle.
+pluginManagement {
+    // Repositorio de herramientas Android.
+    repositories { google(); mavenCentral(); gradlePluginPortal() }
+}
+// Repositorios para las dependencias de la aplicación.
+dependencyResolutionManagement {
+    // Evita repositorios inesperados en subproyectos.
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    // Repositorios oficiales de Google y Maven Central.
+    repositories { google(); mavenCentral() }
+}
+// Nombre del proyecto en Android Studio.
+rootProject.name = 'SumadoraUAE'
+// Módulo de la aplicación Android.
+include ':app'

@@ -1,0 +1,33 @@
+// Configuración del módulo Android app.
+plugins {
+    // Complemento para compilar una aplicación.
+    id 'com.android.application'
+}
+// Opciones de compilación Android.
+android {
+    // Paquete interno de la aplicación.
+    namespace 'ec.edu.agraria.sumadorauae'
+    // Nivel de API disponible para compilar.
+    compileSdk 35
+    // Valores predeterminados de la aplicación.
+    defaultConfig {
+        // Identificador único de instalación.
+        applicationId 'ec.edu.agraria.sumadorauae'
+        // Android 7.0 como versión mínima.
+        minSdk 24
+        // Nivel de API de destino.
+        targetSdk 34
+        // Versión interna.
+        versionCode 1
+        // Versión visible al usuario.
+        versionName '1.0'
+    }
+    // Compatibilidad con Java 17.
+    compileOptions {
+        // Versión de origen Java.
+        sourceCompatibility JavaVersion.VERSION_17
+        // Versión de destino Java.
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+// No se necesitan bibliotecas externas para esta actividad nativa.

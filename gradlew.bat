@@ -1,0 +1,11 @@
+@echo off
+rem Inicia Gradle mediante el lanzador empaquetado con el proyecto.
+setlocal
+set "APP_HOME=%~dp0"
+if defined JAVA_HOME (
+    set "JAVA_EXE=%JAVA_HOME%\bin\java.exe"
+) else (
+    set "JAVA_EXE=java.exe"
+)
+"%JAVA_EXE%" -cp "%APP_HOME%gradle\wrapper\gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain %*
+exit /b %ERRORLEVEL%

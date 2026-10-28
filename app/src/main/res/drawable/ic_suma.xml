@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono vectorial con un símbolo de suma. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="96dp" android:height="96dp" android:viewportWidth="96" android:viewportHeight="96">
+    <!-- Fondo azul del ícono. -->
+    <path android:fillColor="#175A94" android:pathData="M16,4 L80,4 Q92,4 92,16 L92,80 Q92,92 80,92 L16,92 Q4,92 4,80 L4,16 Q4,4 16,4 Z" />
+    <!-- Barra horizontal del signo de suma. -->
+    <path android:fillColor="#FFFFFF" android:pathData="M24,43 L72,43 L72,53 L24,53 Z" />
+    <!-- Barra vertical del signo de suma. -->
+    <path android:fillColor="#FFFFFF" android:pathData="M43,24 L53,24 L53,72 L43,72 Z" />
+</vector>

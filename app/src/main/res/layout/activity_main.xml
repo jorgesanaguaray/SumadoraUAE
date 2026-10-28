@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    U1 S3 Taller 3: Calculadora: sumar dos números (Android Nativo)
+    Paralelo: 6SB
+    Grupo: 6
+    Integrantes:
+        1. Luna Peñafiel Romina
+        2. Pérez Abad Evelyn
+        3. Saa Chichande Solange
+        4. Sanaguaray Gusqui Jorge
+        5. Solís Calderón Dayanna
+-->
+
+<!-- Diseño principal: LinearLayout vertical con entradas, botón y resultado. -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contenedorPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_claro"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Título de la actividad. -->
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/titulo_pantalla"
+        android:textColor="@color/azul_oscuro"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <!-- Instrucción breve al usuario. -->
+    <TextView
+        android:id="@+id/textViewSubtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/subtitulo_pantalla"
+        android:textColor="@color/texto_secundario"
+        android:textSize="16sp" />
+
+    <!-- Etiqueta del primer EditText. -->
+    <TextView
+        android:id="@+id/textViewEtiquetaUno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:labelFor="@id/editTextNumero1"
+        android:text="@string/etiqueta_numero_uno"
+        android:textColor="@color/azul_oscuro"
+        android:textSize="16sp" />
+
+    <!-- Primer EditText: solo admite números enteros no negativos. -->
+    <EditText
+        android:id="@+id/editTextNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_numero_uno"
+        android:inputType="number"
+        android:maxLength="9"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <!-- Etiqueta del segundo EditText. -->
+    <TextView
+        android:id="@+id/textViewEtiquetaDos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:labelFor="@id/editTextNumero2"
+        android:text="@string/etiqueta_numero_dos"
+        android:textColor="@color/azul_oscuro"
+        android:textSize="16sp" />
+
+    <!-- Segundo EditText: solo admite números enteros no negativos. -->
+    <EditText
+        android:id="@+id/editTextNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:hint="@string/hint_numero_dos"
+        android:inputType="number"
+        android:maxLength="9"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <!-- Botón que ejecuta la suma al presionarlo. -->
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/azul_principal"
+        android:minHeight="52dp"
+        android:text="@string/boton_sumar"
+        android:textColor="@color/blanco"
+        android:textSize="16sp" />
+
+    <!-- TextView donde se mostrará Resultado: 12, por ejemplo. -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="@string/resultado_inicial"
+        android:textColor="@color/azul_oscuro"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Fin del contenedor vertical principal. -->
+</LinearLayout>

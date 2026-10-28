@@ -1,0 +1,5 @@
+// Complemento necesario para construir aplicaciones Android.
+plugins {
+    // Versión del complemento Android para este proyecto.
+    id 'com.android.application' version '8.7.3' apply false
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Todos los textos visibles y mensajes de la aplicación. -->
+<resources>
+    <!-- Nombre mostrado debajo del ícono de la aplicación. -->
+    <string name="app_name">SumadoraUAE</string>
+    <!-- Encabezado principal de la pantalla. -->
+    <string name="titulo_pantalla">Sumadora UAE</string>
+    <!-- Instrucción para el usuario. -->
+    <string name="subtitulo_pantalla">Ingresa dos números enteros y presiona Sumar.</string>
+    <!-- Título del primer campo. -->
+    <string name="etiqueta_numero_uno">Primer número</string>
+    <!-- Ejemplo del primer número. -->
+    <string name="hint_numero_uno">Ejemplo: 7</string>
+    <!-- Título del segundo campo. -->
+    <string name="etiqueta_numero_dos">Segundo número</string>
+    <!-- Ejemplo del segundo número. -->
+    <string name="hint_numero_dos">Ejemplo: 5</string>
+    <!-- Texto del botón de operación. -->
+    <string name="boton_sumar">Sumar</string>
+    <!-- Resultado antes de realizar una suma. -->
+    <string name="resultado_inicial">Resultado: —</string>
+    <!-- Resultado numérico mostrado tras la operación. -->
+    <string name="resultado_formato">Resultado: %1$d</string>
+    <!-- Error al dejar un campo vacío. -->
+    <string name="error_campo_vacio">Ingresa un número.</string>
+    <!-- Error si el valor no se puede convertir a entero. -->
+    <string name="error_numero_invalido">Ingresa un número entero válido.</string>
+    <!-- Mensaje flotante cuando la suma terminó. -->
+    <string name="toast_operacion_exitosa">¡Suma realizada correctamente!</string>
+    <!-- Mensaje flotante cuando hay un número no válido. -->
+    <string name="toast_numero_invalido">Verifica los números ingresados.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Paleta sencilla de la pantalla. -->
+<resources>
+    <!-- Azul de título y botones. -->
+    <color name="azul_principal">#175A94</color>
+    <!-- Azul oscuro para textos destacados. -->
+    <color name="azul_oscuro">#183B5C</color>
+    <!-- Fondo claro de la pantalla. -->
+    <color name="fondo_claro">#F3F7FA</color>
+    <!-- Color del texto secundario. -->
+    <color name="texto_secundario">#536575</color>
+    <!-- Color blanco. -->
+    <color name="blanco">#FFFFFF</color>
+</resources>

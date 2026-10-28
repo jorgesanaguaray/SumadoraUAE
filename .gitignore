@@ -1,0 +1,9 @@
+# Archivos locales y generados que no deben subirse al repositorio.
+.gradle/
+.gradle-local/
+.idea/
+local.properties
+build/
+app/build/
+*.iml
+.DS_Store

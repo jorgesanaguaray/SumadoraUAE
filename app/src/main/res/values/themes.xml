@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tema nativo de Android sin dependencias adicionales. -->
+<resources>
+    <!-- Configura el aspecto global de la aplicación. -->
+    <style name="Theme.SumadoraUAE" parent="android:style/Theme.Material.Light.NoActionBar">
+        <!-- Color principal de controles y selección. -->
+        <item name="android:colorAccent">@color/azul_principal</item>
+        <!-- Color de la barra de estado. -->
+        <item name="android:statusBarColor">@color/azul_oscuro</item>
+        <!-- Fondo base de la ventana. -->
+        <item name="android:windowBackground">@color/fondo_claro</item>
+    <!-- Fin de la configuración del tema. -->
+    </style>
+</resources>
